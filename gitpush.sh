@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git add . && git commit -m "$1" && git push `cat repo_name.txt`
+git add . && git commit -a -m "$1" && git push `cat repo_name.txt`
