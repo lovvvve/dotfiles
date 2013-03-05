@@ -44,3 +44,4 @@ fi
 # setup command-t
 #cd _vim/bundle/command-t
 #rake make
+ln -sv /opt/dotfiles/_pythonstartup.py /root/.pythonstartup.py

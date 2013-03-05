@@ -14,4 +14,4 @@ def get_gk_pass(keyring_name, key):
             return item_info.get_secret()
 
 if __name__ == "__main__":
-    print get_gk_pass('login', 'sontek@gmail.com'),
+    print get_gk_pass('login', 'lovvvve@gmail.com'),
