@@ -197,3 +197,4 @@ alias mv='mv -i'
 export LANG="zh_CN.UTF-8"
 alias del_http_proxy='export http_proxy='
 alias set_http_proxy='export http_proxy=127.0.0.1:8087'
+
