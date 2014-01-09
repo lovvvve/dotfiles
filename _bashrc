@@ -31,9 +31,10 @@ purple_s="\[\033[01;35m\]"
 blue_s="\[\033[01;34m\]"
 yellow_s="\[\033[01;33m\]"
 
-#PS1='[${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]]\[\033[01;31m\]\$\[\033[00m\]'
-PS1="\n----[Directory:${red_s}\w${color_end}], [User:${purple_s}\u${color_end}], [HostName:${purple_s}\h${color_end}], [NowTime:${yellow_s}\d \t${color_end}]----\n\[\033[01;31m\]\\$\[\033[00m\]"
-#PS1='\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ '
+PS1='[${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]]\[\033[01;31m\]\$\[\033[00m\]'
+#PS1="\n----[Directory:${red_s}\w${color_end}], [User:${purple_s}\u${color_end}], [HostName:${purple_s}\h${color_end}], [NowTime:${yellow_s}\d \t${color_end}]----\n\[\033[01;31m\]\\$\[\033[00m\]"
+#PS1='[\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ ]'
+#PS1="
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -193,3 +194,6 @@ export PYTHONSTARTUP=~/.pythonstartup.py
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+export LANG="zh_CN.UTF-8"
+alias del_http_proxy='export http_proxy='
+alias set_http_proxy='export http_proxy=127.0.0.1:8087'
