@@ -189,7 +189,7 @@ export PS1="$PS1\$(parse_git_branch)\$(parse_svn_branch) "
 # User specific aliases and functions
 
 
-PATH="/usr/local/bin:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin/:$PATH"
 export PYTHONSTARTUP=~/.pythonstartup.py
 
 alias rm='rm -i'
@@ -199,3 +199,12 @@ export LANG="zh_CN.UTF-8"
 alias del_http_proxy='export http_proxy='
 alias set_http_proxy='export http_proxy=127.0.0.1:8087'
 alias connect_relay00='ssh yulong.shen@192.168.8.171'
+
+function ftq_start {
+  export http_proxy='http://therock.f.ftq.me:61232'
+  export https_proxy='http://therock.f.ftq.me:61232'
+}
+function ftq_stop {
+  export http_proxy=''
+  export https_proxy=''
+}

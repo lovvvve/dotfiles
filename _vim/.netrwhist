@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/root/.vim'
 let g:netrw_dirhist_2='/home/gitlab/gitlab/config'
 let g:netrw_dirhist_3='/opt/blog/apps/blog'
+let g:netrw_dirhist_4='/Users/Lovvvve/.oh-my-zsh'
+let g:netrw_dirhist_5='/Users/Lovvvve/test'
+let g:netrw_dirhist_6='/opt/solarized'
+let g:netrw_dirhist_7='/Users/Lovvvve/.oh-my-zsh/tools'
+let g:netrw_dirhist_8='/opt/dpop/system/puppet/production/manifests/openplatform'
+let g:netrw_dirhist_9='/opt/dotfiles/_vim/_vim'

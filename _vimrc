@@ -306,7 +306,7 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
-"set colorcolumn=79           "开启后第N列自动全部着色
+set colorcolumn=79           "开启后第N列自动全部着色
 
 
 
