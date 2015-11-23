@@ -88,3 +88,8 @@ function ftq_stop {
   export http_proxy=''
   export https_proxy=''
 }
+
+export PYENV_ROOT=/usr/local/opt/pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+function gitignore() { curl -L -s https://www.gitignore.io/api/$@ ;}
